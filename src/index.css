@@ -853,6 +853,35 @@ a {
   padding: 3.2rem 0;
 }
 
+.testimonials-coming-soon {
+  margin-top: 2rem;
+  padding: 3rem 2rem;
+  background: var(--surface, #f8f8f8);
+  border-radius: 16px;
+  border: 2px dashed var(--border, #e0e0e0);
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.testimonials-coming-soon-icon {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.testimonials-coming-soon p {
+  margin: 0.3rem 0;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--text, #222);
+}
+
+.testimonials-coming-soon-sub {
+  font-size: 0.85rem !important;
+  font-weight: 400 !important;
+  color: var(--text-muted, #888) !important;
+}
+
 .testimonials-container {
   margin-bottom: 2rem;
 }
@@ -1190,6 +1219,28 @@ a {
   background: rgba(255, 255, 255, 0.25);
   transform: translateY(-3px);
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.store-btn-coming-soon {
+  cursor: not-allowed;
+  position: relative;
+}
+
+.store-btn-coming-soon:hover {
+  transform: none !important;
+  box-shadow: none !important;
+}
+
+.coming-soon-badge {
+  background: rgba(255, 255, 255, 0.25);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 20px;
+  padding: 2px 10px;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  white-space: nowrap;
 }
 
 .store-icon {
