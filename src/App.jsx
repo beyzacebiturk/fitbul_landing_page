@@ -824,8 +824,8 @@ function App() {
             <div className="footer-bottom-inner">
               <span>© {new Date().getFullYear()} {APP_NAME}. Tüm hakları saklıdır.</span>
               <div className="footer-links">
-                <a href="https://fitbul-app-a219a.web.app/kullanici-sozlesmesi.html" target="_blank" rel="noopener noreferrer">Kullanım Şartları</a>
-                <a href="https://fitbul-app-a219a.web.app/gizlilik-politikasi.html" target="_blank" rel="noopener noreferrer">Gizlilik Politikası</a>
+                <a href="/kullanici-sozlesmesi.html" target="_blank" rel="noopener noreferrer">Kullanım Şartları</a>
+                <a href="/gizlilik-politikasi.html" target="_blank" rel="noopener noreferrer">Gizlilik Politikası</a>
               </div>
             </div>
           </div>
