@@ -699,6 +699,17 @@ function App() {
                   <p>@fitbul.app</p>
                 </div>
               </a>
+              <a href="/gizlilik-politikasi.html" target="_blank" rel="noopener noreferrer" className="contact-card">
+                <div className="contact-card-icon">
+                  <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm0 4l5 2.18V11c0 3.5-2.33 6.79-5 7.93-2.67-1.14-5-4.43-5-7.93V7.18L12 5z"/>
+                  </svg>
+                </div>
+                <div>
+                  <h4>Gizlilik Politikası</h4>
+                  <p>Verileriniz nasıl korunur?</p>
+                </div>
+              </a>
             </div>
           </div>
         </section>
